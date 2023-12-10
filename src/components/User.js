@@ -36,7 +36,8 @@ const User = () => {
                                             <p className="text-secondary mb-1">Full Stack Developer</p>
                                             <p className="text-muted font-size-sm">{user.email}</p>
                                         </div>
-                                        <div className="card-footer m">
+                                        <div className="card-footer m
+                                        ">
                                             <button className="btn btn-primary btn-sm   btn-block" type="button">Edit</button>
                                             <button className="btn btn-danger btn-sm   ml-2" type="button" onClick={deleteUser}>Delete</button>
                                         </div>
